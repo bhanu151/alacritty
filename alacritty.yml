@@ -31,8 +31,6 @@ colors:
     - { index: 16, color: '0xff9e64' }
     - { index: 17, color: '0xdb4b4b' }
 
-background_opacity: 1.0
-
 font:
   normal:
     family: "Hack Nerd Font"
@@ -48,7 +46,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 14.0
+  size: 13.0
 
   offset:
     x: 0
@@ -58,6 +56,8 @@ font:
     y: 0
 
 window:
+  opacity: 1.0
+
   padding:
     x: 2
     y: 2
@@ -86,7 +86,6 @@ key_bindings:
   - { key: C, mods: Control|Shift, action: Copy }
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
-  - { key: Add, mods: Control, action: IncreaseFontSize }
-  - { key: Subtract, mods: Control, action: DecreaseFontSize }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
   - { key: N, mods: Control, action: SpawnNewInstance }
